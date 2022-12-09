@@ -29,8 +29,8 @@ Cypress.Commands.add('setToken', function () {
         method: 'POST',
         url: '/sessions',
         body: {
-            email: 'fernando@qacademy.io',
-            password: 'qa-cademy'
+            email: '',
+            password: ''
         },
         failOnStatusCode: false
     }).then(function (response) {
